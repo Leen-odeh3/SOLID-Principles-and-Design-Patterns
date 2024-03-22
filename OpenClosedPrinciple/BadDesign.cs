@@ -5,15 +5,9 @@ namespace OpenClosedPrinciple;
 // Bad Design Example:
 public class ReportGeneration
 {
-    /// <summary>
-    /// Report type
-    /// </summary>
     public string ReportType { get; set; }
-
-    /// <summary>
-    /// Method to generate report
-    /// </summary>
-    /// <param name="employee"></param>
+  
+    // Method to generate report
     public void GenerateReport(Employee employee)
     {
         if (ReportType == "CRS")
