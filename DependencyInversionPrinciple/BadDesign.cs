@@ -1,5 +1,5 @@
 ﻿namespace DependencyInversionPrinciple.BadDesign;
-
+// The problem is: Here the high level module (OrderService) is tightly dependent on low level module (EmailSender)
 // Low level module
 public class EmailSender
 {
@@ -29,4 +29,3 @@ public class OrderService
     }
 }
 
-// The problem is: Here the high level module (OrderService) is tightly dependent on low level module (EmailSender)
