@@ -1,6 +1,5 @@
 ﻿namespace SingleResponsibilityPrinciple;
-
-// Not following single responsibility
+// (Bad)
 internal interface IUserBadService
 {
     bool Login(string userName, string password);
@@ -9,7 +8,7 @@ internal interface IUserBadService
     void SendEmail(string emailAddress, string content);
 }
 
-// Following single reponsibility principle.
+// (Good Code) single reponsibility principle.
 internal interface IUserService
 {
     bool Login(string userName, string password);
