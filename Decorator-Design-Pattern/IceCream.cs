@@ -1,5 +1,6 @@
 ﻿
-namespace Decorator_Design_Pattern;
+/*Taditional code without Decorator_Design_Pattern
+ * namespace Decorator_Design_Pattern;
 
 public class IceCream
 {
@@ -28,3 +29,4 @@ public class IceCreamWithFruitMix : IceCream
     public override string Description => $"{base.Description} + Fruit Mix";
     public override decimal CalculateCost() => base.CalculateCost() + .60m;
 }
+*/
